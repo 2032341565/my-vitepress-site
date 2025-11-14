@@ -1,0 +1,24 @@
+{
+  "name": "my-vitepress-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "vitepress": "^1.6.4",
+    "vitepress-markdown-timeline": "^1.2.2"
+  },
+  "dependencies": {
+    "leancloud-storage": "^4.15.2",
+    "valine": "^1.5.3"
+  }
+}
